@@ -1,0 +1,39 @@
+{
+  "id": "top_tour_summary",
+  "type": "SharedSlice",
+  "name": "TopTourSummary",
+  "description": "TopTourSummary",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {}
+    },
+    {
+      "id": "section2Wrapper",
+      "name": "hero-banner-wrapper",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "trip_img": {
+          "type": "Image",
+          "config": {
+            "label": "trip img",
+            "constraint": {
+              "width": 0
+            },
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
